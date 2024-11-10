@@ -15,7 +15,7 @@ export default  function Skill(){
 
         <div className='grid grid-cols-3 gap-1 cursor-pointer'>
         
-         <div className='animate__animated animate__bounceInLeft animate__delay-1s border-2 shadow-2xl h-40 rounded-3xl sm:h-52 hover:text-white hover:bg-[#41228e] hover:border-[#deab7f] hover:border-2 border-[#41228e] mt-10 ml-2 md:w-auto md:h-60 lg:w-80 lg:ml-16'>
+         <div className='animate__animated animate__bounceInLeft animate__delay-0.5s border-2 shadow-2xl h-40 rounded-3xl sm:h-52 hover:text-white hover:bg-[#41228e] hover:border-[#deab7f] hover:border-2 border-[#41228e] mt-10 ml-2 md:w-auto md:h-60 lg:w-80 lg:ml-16'>
          <Image
          className='md:w-52 sm:w-52  sm:h-44 w-36 h-32 md:h-44 md:mt-8   md:ml-12 lg:ml-12'
            src={html}
@@ -66,7 +66,7 @@ export default  function Skill(){
         </div>
 
 
-        <div className='animate__animated animate__bounceInRight animate__delay-1s border-2 shadow-2xl h-40 rounded-3xl hover:text-white hover:bg-[#41228e] hover:border-[#deab7f] hover:border-2 border-[#41228e] mt-10 ml-2 sm:h-52 sm:w-auto md:w-auto md:h-60 lg:w-80 lg:ml-16'>
+        <div className='animate__animated animate__bounceInRight animate__delay-0.5s border-2 shadow-2xl h-40 rounded-3xl hover:text-white hover:bg-[#41228e] hover:border-[#deab7f] hover:border-2 border-[#41228e] mt-10 ml-2 sm:h-52 sm:w-auto md:w-auto md:h-60 lg:w-80 lg:ml-16'>
         <Image
         className='md:w-52 sm:w-52  sm:h-44 w-36 h-32 md:ml-12 md:h-44 md:mt-8   lg:ml-12'
           src={git}

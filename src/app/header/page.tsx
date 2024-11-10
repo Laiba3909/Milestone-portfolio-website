@@ -27,7 +27,7 @@ export default function Header() {
     />
 </div>
 
-      <nav className="hidden md:flex">
+      <nav className="hidden lg:flex">
         <ul className="flex text-3xl font-mono m-0 gap-x-8 animate__animated animate__backInDown">
           <li className="text-[#FFDAB9]">
             <Link href="/">Home</Link>
@@ -39,13 +39,18 @@ export default function Header() {
             <Link href="/skills">Skills</Link>
           </li>
           <li>
+            <Link href="/projects">Projects</Link>
+          </li>
+          <li>
             <Link href="/contact">Contact</Link>
           </li>
-         
+          <li>
+            <Link href="/faqs">FAQS</Link>
+          </li>
         </ul>
       </nav>
 
-      <div className="md:hidden flex items-center">
+      <div className="lg:hidden flex items-center">
         <button
           onClick={toggleMobileMenu}
           className="text-3xl focus:outline-none -mt-10 animate__animated animate__fadeInDown"
@@ -55,7 +60,7 @@ export default function Header() {
       </div>
       {isMobileMenu && (
         <div className="absolute top-16 right-0 bg-[#41228e] w-full text-white shadow-lg z-10  
-animate__animated animate__backInDown md:hidden flex">
+animate__animated animate__backInDown lg:hidden flex">
           <ul className="flex flex-col text-xl p-4 ">
             <li className="py-2 hover:bg-gray-700">
               <Link href="/">Home</Link>

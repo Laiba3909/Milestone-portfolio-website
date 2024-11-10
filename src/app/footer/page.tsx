@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-black w-full h-28 mt-8 animate__animated animate__fadeInUpBig">
+    <footer className="bg-black w-full h-28 mt-8 animate__animated animate__fadeInUpBig ">
       <ul className="inline-flex  lg:ml-[700px] md:ml-60  gap-2 ml-20 mt-6 animate__animated animate__fadeInUpBig">
         <li>
           <Link href={'https://www.linkedin.com/in/laiba-noman-158663290/'}>
