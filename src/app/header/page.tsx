@@ -71,10 +71,16 @@ animate__animated animate__backInDown lg:hidden flex">
             <li className="py-2 hover:bg-gray-700">
               <Link href="/skills">Skills</Link>
             </li>
-            
+            <li>
+            <Link href="/projects">Projects</Link>
+          </li>
             <li className="py-2 hover:bg-gray-700">
               <Link href="/contact">Contact</Link>
             </li>
+
+            <li>
+            <Link href="/faqs">FAQS</Link>
+          </li>
          
           </ul>
         </div>
