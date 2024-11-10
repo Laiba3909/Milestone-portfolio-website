@@ -48,7 +48,8 @@ export default function Home() {
 
     
     <h1  className="mt-2 text-center md:mt-10 xl:text-6xl 2xl:text-3xl lg:mt-3 md:text-5xl lg:text-3xl text-3xl font-mono font-bold text-[#41228e] animate__animated animate__fadeInUpBig">Who I AM? 🤔</h1>
-        <p className=" md:font-mono md:text-4xl md:mt-5 xl:text-4xl 2xl:text-2xl lg:text-2xl  text-center text-2xl lg:font-mono"><span className="font-bold font-mono">Hi!</span> I&apos;m Laiba, a web developer with a passion for creating innovative and user-friendly websites. I love working with technologies like <span className="text-[#dfa16a] font-mono">Next.js, Tailwind, and TypeScript</span> to build beautiful, functional sites. My goal is to keep growing as a developer and explore full-stack development.
+        <p className=" md:font-mono md:text-4xl md:mt-5 xl:text-4xl 2xl:text-2xl lg:text-2xl  text-center text-2xl lg:font-mono"><span className="font-bold font-mono"></span><span>Hi!</span> I am Laiba, a dedicated web developer with a passion for creating innovative, visually engaging, and user-friendly websites. I specialize in frontend technologies and enjoy bringing ideas to life using <span className="text-[#dfa16a] font-mono">Next.js, Tailwind, and TypeScript</span>.. I am constantly learning and challenging myself to stay up-to-date with the latest trends in web development. My goal is to expand my skills and dive into full-stack development, creating solutions that combine both frontend aesthetics and backend functionality. Let,s build something remarkable together!
+
 
 </p>
     </div>
